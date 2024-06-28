@@ -7,3 +7,8 @@ img {
     width: 150px;
     height: 150px;
 }
+
+.img-fluid {
+    width: auto;
+    height: auto;
+}
