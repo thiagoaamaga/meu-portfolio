@@ -1,0 +1,127 @@
+{
+  "foto": "photo.jpg",
+  "nome": "Thiago Magalhães",
+  "subtitulo": "22 anos | Carteira AB",
+  "cargos": "Mecânico | Desenhista 3D",
+  "formacao": "Técnico em Mecânica pelo IFMG",
+  "habilidades": [
+    "Auto Card",
+    "Solid Edge",
+    "Microsoft Word"
+  ],
+  "link_whatsapp": "https://wa.me/553194955378",
+  "link_linkedin": "https://www.linkedin.com/in/thiagoaamaga/",
+  "link_instagram": "https://www.instagram.com",
+  "projetos": [
+    {
+      "nome": "Detalhamento Pistão",
+      "imagens": [
+        "projetos/DETALHAMENTO PISTÃO_221212_154543/DETALHAMENTO PISTÃO_221212_154543-1.png",
+        "projetos/DETALHAMENTO PISTÃO_221212_154543/DETALHAMENTO PISTÃO_221212_154543-2.png",
+        "projetos/DETALHAMENTO PISTÃO_221212_154543/DETALHAMENTO PISTÃO_221212_154543-3.png",
+        "projetos/DETALHAMENTO PISTÃO_221212_154543/DETALHAMENTO PISTÃO_221212_154543-4.png",
+        "projetos/DETALHAMENTO PISTÃO_221212_154543/DETALHAMENTO PISTÃO_221212_154543-5.png",
+        "projetos/DETALHAMENTO PISTÃO_221212_154543/DETALHAMENTO PISTÃO_221212_154543-6.png",
+        "projetos/DETALHAMENTO PISTÃO_221212_154543/DETALHAMENTO PISTÃO_221212_154543-7.png"
+      ]
+    },
+    {
+      "nome": "Análise Estrutura de Componente",
+      "imagens": [
+        "projetos/Análise estrutura de componente/Análise estrutura de componente-1.png",
+        "projetos/Análise estrutura de componente/Análise estrutura de componente-2.png",
+        "projetos/Análise estrutura de componente/Análise estrutura de componente-3.png",
+        "projetos/Análise estrutura de componente/Análise estrutura de componente-4.png",
+        "projetos/Análise estrutura de componente/Análise estrutura de componente-5.png",
+        "projetos/Análise estrutura de componente/Análise estrutura de componente-6.png",
+        "projetos/Análise estrutura de componente/Análise estrutura de componente-7.png"
+      ]
+    },
+    {
+      "nome": "Caixa Diferencial Montagem",
+      "imagens": [
+        "projetos/caixa diferencial montagem/caixa diferencial montagem-1.png",
+        "projetos/caixa diferencial montagem/caixa diferencial montagem-2.png",
+        "projetos/caixa diferencial montagem/caixa diferencial montagem-3.png"
+      ]
+    },
+    {
+      "nome": "Disco de Embreagem",
+      "imagens": [
+        "projetos/Disco de embreagem Portfolio/Disco de embreagem Portfolio-1.png",
+        "projetos/Disco de embreagem Portfolio/Disco de embreagem Portfolio-2.png",
+        "projetos/Disco de embreagem Portfolio/Disco de embreagem Portfolio-3.png",
+        "projetos/Disco de embreagem Portfolio/Disco de embreagem Portfolio-4.png"
+      ]
+    },
+    {
+      "nome": "Estrutura do Laser",
+      "imagens": [
+        "projetos/Estrutura do Laser Portfólio/Estrutura do Laser Portfólio-1.png",
+        "projetos/Estrutura do Laser Portfólio/Estrutura do Laser Portfólio-2.png"
+      ]
+    },
+    {
+      "nome": "Estrutura do Zumbach",
+      "imagens": [
+        "projetos/Estrutura do Zumbach FINAL/Estrutura do Zumbach FINAL-1.png",
+        "projetos/Estrutura do Zumbach FINAL/Estrutura do Zumbach FINAL-2.png",
+        "projetos/Estrutura do Zumbach FINAL/Estrutura do Zumbach FINAL-3.png",
+        "projetos/Estrutura do Zumbach FINAL/Estrutura do Zumbach FINAL-4.png",
+        "projetos/Estrutura do Zumbach FINAL/Estrutura do Zumbach FINAL-5.png",
+        "projetos/Estrutura do Zumbach FINAL/Estrutura do Zumbach FINAL-6.png",
+        "projetos/Estrutura do Zumbach FINAL/Estrutura do Zumbach FINAL-7.png"
+      ]
+    },
+    {
+      "nome": "POLIA 122 Ø",
+      "imagens": [
+        "projetos/POLIA 122 Ø/POLIA 122 Ø-1.png",
+        "projetos/POLIA 122 Ø/POLIA 122 Ø-2.png"
+      ]
+    },
+    {
+      "nome": "Tubo 45",
+      "imagens": [
+        "projetos/tubo 45 portfolio/tubo 45 portfolio-1.png",
+        "projetos/tubo 45 portfolio/tubo 45 portfolio-2.png"
+      ]
+    },
+    {
+      "nome": "Eixo",
+      "imagens": [
+        "projetos/EIXO PORTFOLIO/EIXO PORTFOLIO-1.png"
+      ]
+    },
+    {
+      "nome": "Eixo Bucha",
+      "imagens": [
+        "projetos/EIXO BUCHA PORTFOLIO/EIXO BUCHA PORTFOLIO-1.png"
+      ]
+    },
+    {
+      "nome": "Rolo",
+      "imagens": [
+        "projetos/ROLO PORTFOLIO/ROLO PORTFOLIO-1.png"
+      ]
+    },
+    {
+      "nome": "Manípulo",
+      "imagens": [
+        "projetos/MANÍPULO PORTFOLIO/MANÍPULO PORTFOLIO-1.png"
+      ]
+    },
+    {
+      "nome": "Girabrequin",
+      "imagens": [
+        "projetos/Girabrequin/Girabrequim Renderizado.png"
+      ]
+    },
+    {
+      "nome": "KS",
+      "imagens": [
+        "projetos/KS/KS®118519354.1.jpg"
+      ]
+    }
+  ]
+}
