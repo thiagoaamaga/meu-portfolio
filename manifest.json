@@ -12,6 +12,34 @@
   "link_whatsapp": "https://wa.me/553194955378",
   "link_linkedin": "https://www.linkedin.com/in/thiagoaamaga/",
   "link_instagram": "https://www.instagram.com",
+  "avaliacoes": [
+    {
+      "nome": "João",
+      "texto": "Gostei muito."
+    },
+    {
+      "nome": "João",
+      "texto": "Gostei muito."
+    },
+    {
+      "nome": "João",
+      "texto": "Gostei muito."
+    }
+  ],
+  "servicos": [
+    {
+      "titulo": "Auto Card",
+      "descricao": "Você precisa de desenhos técnicos precisos e detalhados para seus projetos de engenharia ou arquitetura? Estou aqui para ajudar! Sou um profissional experiente em modelagem AutoCAD, oferecendo serviços de alta qualidade em modelagem 2D e 3D."
+    },
+    {
+      "titulo": "Auto Card",
+      "descricao": "Você precisa de desenhos técnicos precisos e detalhados para seus projetos de engenharia ou arquitetura? Estou aqui para ajudar! Sou um profissional experiente em modelagem AutoCAD, oferecendo serviços de alta qualidade em modelagem 2D e 3D."
+    },
+    {
+      "titulo": "Auto Card",
+      "descricao": "Você precisa de desenhos técnicos precisos e detalhados para seus projetos de engenharia ou arquitetura? Estou aqui para ajudar! Sou um profissional experiente em modelagem AutoCAD, oferecendo serviços de alta qualidade em modelagem 2D e 3D."
+    }
+  ],
   "projetos": [
     {
       "nome": "Detalhamento Pistão",
