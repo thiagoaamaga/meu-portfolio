@@ -70,10 +70,7 @@ const ImageCarousel = ({imagens}: ImageCarouselProps) =>
                 showDots={false}
                 centerMode={true}
                 responsive={responsive}
-                autoPlay={true}
                 removeArrowOnDeviceType={["tablet", "mobile"]}
-                infinite={true}
-                autoPlaySpeed={5000}
                 className="carousel"
             >
                 {imagens.map((imagem, imgIndex) => (
