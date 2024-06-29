@@ -20,4 +20,4 @@ mostradas no website. Ao modificá-las será refletido no site.
   },
 ```
 
-**IMPORTANTE**: Devido à um bug no GitHub, para atualizar clique aqui: [ATUALIZAR](#https://thiagoaamaga.github.io/meu-portfolio/index.html)
+**IMPORTANTE**: Devido à um bug no GitHub, para atualizar clique aqui: [ATUALIZAR](https://thiagoaamaga.github.io/meu-portfolio/index.html)
