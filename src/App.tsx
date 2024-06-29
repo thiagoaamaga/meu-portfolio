@@ -63,7 +63,6 @@ const App = () =>
                         <h6>{data.subtitulo}</h6>
                         <h6>{data.cargos}</h6>
                         <p>{data.formacao}</p>
-
                         <br/>
 
                         <div>
