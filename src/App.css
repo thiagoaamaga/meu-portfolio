@@ -5,10 +5,6 @@ html {
     margin: auto;
 }
 
-p {
-    font-size: 1em;
-}
-
 body {
     font-family: 'Helvetica', 'Arial', sans-serif;
     color: #002242;
@@ -48,8 +44,8 @@ a {
     margin: 20px;
 }
 
-.item-space {
-    margin: 30px 0 30px 0;
+.project {
+    margin: 30px 0 50px 0;
 }
 
 .bi:hover {

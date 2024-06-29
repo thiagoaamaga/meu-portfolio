@@ -2,22 +2,10 @@ import React, {useEffect, useState} from "react";
 import ImageCarousel from "./Carousel";
 import "./App.css";
 
-interface Project
+export interface Project
 {
     nome: string;
     imagens: string[];
-}
-
-interface Service
-{
-    titulo: string;
-    descricao: string;
-}
-
-interface Rating
-{
-    nome: string;
-    texto: string;
 }
 
 export interface Manifest
@@ -28,8 +16,6 @@ export interface Manifest
     cargos: string;
     formacao: string;
     projetos: Project[];
-    servicos: Service[];
-    avaliacoes: Rating[];
     habilidades: string[];
     link_whatsapp: string;
     link_linkedin: string;
@@ -63,6 +49,7 @@ const App = () =>
                         <h6>{data.subtitulo}</h6>
                         <h6>{data.cargos}</h6>
                         <p>{data.formacao}</p>
+
                         <br/>
 
                         <div>
@@ -91,36 +78,11 @@ const App = () =>
                 <section>
                     <h2>Projetos</h2>
                     {data.projetos.map((projeto, index) => (
-                        <div key={index} className="item-space">
+                        <div key={index} className="project">
                             <h4>{projeto.nome}</h4><br/>
                             <ImageCarousel key={index} imagens={projeto.imagens}/>
                         </div>
                     ))}
-                </section>
-
-                <section>
-                    <h2>Avaliações</h2> <br/>
-                    <div className="row">
-                        {data.avaliacoes.map((avaliacao, index) => (
-                            <div key={index} className="col-lg-4 col-sm-6 item-space">
-                                <i className="bi bi-person-circle h2"></i>
-                                <h4>{avaliacao.nome}</h4><br/>
-                                <p>{avaliacao.texto}</p>
-                            </div>
-                        ))}
-                    </div>
-                </section>
-
-                <section>
-                    <h2>Nossos Serviços</h2>
-                    <div className="row">
-                        {data.servicos.map((servico, index) => (
-                            <div key={index} className="col-lg-6 col-sm-12 item-space">
-                                <h4>{servico.titulo}</h4><br/>
-                                <p>{servico.descricao}</p>
-                            </div>
-                        ))}
-                    </div>
                 </section>
             </div>
 
