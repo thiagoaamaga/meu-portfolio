@@ -15,15 +15,15 @@
   "avaliacoes": [
     {
       "nome": "Ana Clara Silva",
-      "texto": "\"O design ficou excelente! A interface do AutoCAD permitiu criar detalhes precisos e de alta qualidade.\""
+      "texto": "\"O design ficou excelente! O AutoCAD permitiu criar detalhes precisos e de alta qualidade.\""
     },
     {
-      "nome": "João Pedro Oliveira",
+      "nome": "João Pedro",
       "texto": "\"Muito satisfeito com o resultado final. As ferramentas do AutoCAD facilitaram bastante o processo de criação.\""
     },
     {
       "nome": "Mariana Souza",
-      "texto": "\"O produto ficou incrível, com um design funcional e esteticamente agradável. O AutoCAD é uma ferramenta essencial para esse tipo de trabalho.\""
+      "texto": "\"O produto ficou incrível, com um design funcional e esteticamente agradável.\""
     }
   ],
   "servicos": [
