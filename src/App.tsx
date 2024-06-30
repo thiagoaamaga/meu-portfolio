@@ -50,11 +50,11 @@ const App = () =>
 
     if (!data)
     {
-        return <div>Loading...</div>;
+        return <></>;
     }
 
     return (
-        <div className="">
+        <>
             <div className="content">
                 <section>
                     <div className="profile">
@@ -138,7 +138,7 @@ const App = () =>
                     </a>
                 </div>
             </footer>
-        </div>
+        </>
     );
 };
 

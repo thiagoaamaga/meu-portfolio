@@ -2,6 +2,7 @@ import React, {useEffect, useState} from "react";
 import "./Carousel.css";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import {useSwipeable} from "react-swipeable";
 
 const responsive = {
     superLargeDesktop: {
@@ -30,7 +31,7 @@ interface ImageCarouselProps
 const ImageCarousel = ({imagens}: ImageCarouselProps) =>
 {
     const [showModal, setShowModal] = useState(false);
-    const [selectedImage, setSelectedImage] = useState("");
+    const [selectedImageIndex, setSelectedImageIndex] = useState(0);
 
     useEffect(() =>
     {
@@ -44,16 +45,16 @@ const ImageCarousel = ({imagens}: ImageCarouselProps) =>
         }
     }, [showModal]);
 
-    const handleImageClick = (image: string) =>
+    const handleImageClick = (index: number) =>
     {
-        setSelectedImage(image);
+        setSelectedImageIndex(index);
         setShowModal(true);
     };
 
     const handleCloseModal = () =>
     {
         setShowModal(false);
-        setSelectedImage("");
+        setSelectedImageIndex(0);
     };
 
     const handleBackdropClick = (e: React.MouseEvent) =>
@@ -63,6 +64,46 @@ const ImageCarousel = ({imagens}: ImageCarouselProps) =>
             handleCloseModal();
         }
     };
+
+    const hasLeftSwipe = () => selectedImageIndex !== 0;
+    const hasRightSwipe = () => selectedImageIndex !== imagens.length - 1;
+
+    const handleSwipeLeft = () => {
+        setSelectedImageIndex((prevIndex) => (prevIndex - 1 + imagens.length) % imagens.length);
+    };
+
+    const handleSwipeRight = () => {
+        setSelectedImageIndex((prevIndex) => (prevIndex + 1) % imagens.length);
+    };
+
+    useEffect(() =>
+    {
+        const handleKeydown = (e: KeyboardEvent) =>
+        {
+            if (e.key === "ArrowLeft")
+            {
+                handleSwipeRight();
+            }
+            else if (e.key === "ArrowRight")
+            {
+                handleSwipeLeft();
+            }
+        };
+        if (showModal)
+        {
+            document.addEventListener("keydown", handleKeydown);
+        }
+        return () =>
+        {
+            document.removeEventListener("keydown", handleKeydown);
+        };
+    }, [showModal]);
+
+    const swipeHandlers = useSwipeable({
+        onSwipedLeft: handleSwipeLeft,
+        onSwipedRight: handleSwipeRight,
+        trackMouse: true
+    });
 
     return (
         <>
@@ -78,7 +119,7 @@ const ImageCarousel = ({imagens}: ImageCarouselProps) =>
                         key={imgIndex}
                         src={`${process.env.PUBLIC_URL}/${imagem}`}
                         alt={`Projeto ${imgIndex + 1} - Imagem ${imgIndex + 1}`}
-                        onClick={() => handleImageClick(`${process.env.PUBLIC_URL}/${imagem}`)}
+                        onClick={() => handleImageClick(imgIndex)}
                         className="carousel-image"
                     />
                 ))}
@@ -91,12 +132,19 @@ const ImageCarousel = ({imagens}: ImageCarouselProps) =>
                         <div className="modal-dialog modal-dialog-centered modal-fullscreen" role="document">
                             <div className="modal-content" onClick={(e) => e.stopPropagation()}>
                                 <div className="modal-header">
-                                    <button type="button" className="close" onClick={handleCloseModal}>
-                                        <i className="bi bi-x-circle-fill h1"></i>
-                                    </button>
+                                    <div onClick={handleCloseModal}>
+                                        <i className="bi bi-x-circle-fill h1 close"></i>
+                                    </div>
                                 </div>
-                                <div className="modal-body">
-                                    <img src={selectedImage} alt="Selected" className="img-fluid modal-image"/>
+                                <div className="modal-body" {...swipeHandlers}>
+                                    <div onClick={handleSwipeLeft} className={!hasLeftSwipe() ? "hidden" : ""}>
+                                        <i className="bi bi-arrow-left-circle-fill h1 left-arrow"></i>
+                                    </div>
+                                    <img src={`${process.env.PUBLIC_URL}/${imagens[selectedImageIndex]}`} alt="Selected"
+                                         className="img-fluid modal-image"/>
+                                    <div onClick={handleSwipeRight} className={!hasRightSwipe() ? "hidden" : ""}>
+                                        <i className="bi bi-arrow-right-circle-fill h1 right-arrow"></i>
+                                    </div>
                                 </div>
                             </div>
                         </div>
