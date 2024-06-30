@@ -100,8 +100,8 @@ const ImageCarousel = ({imagens}: ImageCarouselProps) =>
     }, [showModal]);
 
     const swipeHandlers = useSwipeable({
-        onSwipedLeft: handleSwipeLeft,
-        onSwipedRight: handleSwipeRight,
+        onSwipedLeft: handleSwipeRight,
+        onSwipedRight: handleSwipeLeft,
         trackMouse: true
     });
 
