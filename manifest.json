@@ -2,18 +2,18 @@
   "foto": "photo.jpg",
   "nome": "Thiago Magalhães",
   "subtitulo": "22 anos | Carteira AB",
-  "cargos": "Mecânico | Desenhista 3D",
+  "cargos": "Desenhista Técnico 3D | Mecânico",
   "formacao": "Técnico em Mecânica pelo IFMG",
   "habilidades": [
     "Auto Cad",
     "Solid Edge",
     "Proficiência em Inglês",
-    "SDesenho técnico e Modelamento",
+    "Desenho técnico e Modelamento",
     "Microsoft Excel"
   ],
   "link_whatsapp": "https://wa.me/553194955378",
   "link_linkedin": "https://www.linkedin.com/in/thiagoaamaga/",
-  "link_instagram": "https://www.instagram.com",
+  "link_instagram": "https://www.instagram.com/thiagoaamaga",
   "avaliacoes": [
     {
       "nome": "Matheus Pradella Consultório",
@@ -21,11 +21,11 @@
     },
     {
       "nome": "Juliano Eagle Lab",
-      "texto": "\"Trabalho com o Thiago há meses projetando peças para minha facetadora, me ajudou a ser o único fabricante das peças no Brasil\""
+      "texto": "\"Trabalho com o Thiago há meses projetando peças para minhas facetadoras de ótica, me ajudou a ser o único fabricante das peças no Brasil\""
     },
     {
-      "nome": "Robson Vallourec",
-      "texto": "\"Thiago projetou duas estruturas para a linha de produção de tubos na Vallourec de Jeceaba, ótimo detalhamento e precisão.\""
+      "nome": "Robson Oliveira Vallourec",
+      "texto": "\"Thiago projetou duas estruturas para a linha de produção de tubos na Vallourec de Jeceaba, ótimo detalhamento e precisão. As estruturas são do Laser e Zumbach localizada no MPB(Multiple Test Box) em Vallourec Jeceaba.\""
     }
   ],
   "servicos": [
@@ -39,7 +39,7 @@
     },
     {
       "titulo": "Excel",
-      "descricao": "Tenho curso de Excel Avançado e crio Dashboard automatizados e com indicadores"
+      "descricao": "Tenho curso de Excel Avançado e crio Dashboard automatizados e com indicadores."
     }
   ],
   "projetos": [
@@ -57,7 +57,7 @@
       ]
     },
     {
-      "nome": "Análise Estrutura de Componente",
+      "nome": "Análise Estrutural de Componente",
       "descricao": "Análise Estrutural feita para calcular impacto do tubo na estrutura.",
       "imagens": [
         "projetos/Análise estrutura de componente/Análise estrutura de componente-1.png",
@@ -70,7 +70,7 @@
       ]
     },
     {
-      "nome": "Caixa Diferencial Montagem",
+      "nome": "Caixa Diferencial",
       "descricao": "Detalhamento e modelamento de uma caixa diferencial mecânica.",
       "imagens": [
         "projetos/caixa diferencial montagem/caixa diferencial montagem-1.png",
@@ -127,20 +127,20 @@
     },
     {
       "nome": "Eixo",
-      "descricao": "Este detalhamento técnico apresenta um pistão meticulosamente desenhado para máxima eficiência e desempenho.",
+      "descricao": "Este detalhamento técnico apresenta um eixo mecânico de um moto-redutor",
       "imagens": [
         "projetos/EIXO PORTFOLIO/EIXO PORTFOLIO-1.png"
       ]
     },
     {
-      "nome": "Eixo Bucha",
-      "descricao": "Detalhamento de um eixo mecânico.",
+      "nome": "Bucha do eixo",
+      "descricao": "Detalhamento de uma bucha de um eixo mecânico.",
       "imagens": [
         "projetos/EIXO BUCHA PORTFOLIO/EIXO BUCHA PORTFOLIO-1.png"
       ]
     },
     {
-      "nome": "Rolo",
+      "nome": "Rolo Giratubo",
       "descricao": "Rolo de apoio para tubo na linha de produção.",
       "imagens": [
         "projetos/ROLO PORTFOLIO/ROLO PORTFOLIO-1.png"
@@ -154,7 +154,7 @@
       ]
     },
     {
-      "nome": "Girabrequin",
+      "nome": "Girabrequin/Virabrequin",
       "descricao": "Girabrequin/Virabrequin automotivo modelado e renderizado.",
       "imagens": [
         "projetos/Girabrequin/Girabrequim Renderizado.png"
@@ -165,7 +165,6 @@
       "descricao": "Renderização de um galpão com detalhes de fundação",
       "imagens": [
         "projetos/KS/KS®118519354.1.jpg",
-        "projetos/KS/KS®107028217.8.jpg",
         "projetos/KS/KS®5947521455.2.jpg",
         "projetos/KS/KS®5947521455.3.jpg"
         
