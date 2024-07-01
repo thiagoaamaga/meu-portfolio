@@ -43,6 +43,7 @@
   "projetos": [
     {
       "nome": "Detalhamento Pistão",
+      "descricao": "Este detalhamento técnico apresenta um pistão meticulosamente desenhado para máxima eficiência e desempenho.",
       "imagens": [
         "projetos/DETALHAMENTO PISTÃO_221212_154543/DETALHAMENTO PISTÃO_221212_154543-1.png",
         "projetos/DETALHAMENTO PISTÃO_221212_154543/DETALHAMENTO PISTÃO_221212_154543-2.png",
@@ -55,6 +56,7 @@
     },
     {
       "nome": "Análise Estrutura de Componente",
+      "descricao": "Este detalhamento técnico apresenta um pistão meticulosamente desenhado para máxima eficiência e desempenho.",
       "imagens": [
         "projetos/Análise estrutura de componente/Análise estrutura de componente-1.png",
         "projetos/Análise estrutura de componente/Análise estrutura de componente-2.png",
@@ -67,6 +69,7 @@
     },
     {
       "nome": "Caixa Diferencial Montagem",
+      "descricao": "Este detalhamento técnico apresenta um pistão meticulosamente desenhado para máxima eficiência e desempenho.",
       "imagens": [
         "projetos/caixa diferencial montagem/caixa diferencial montagem-1.png",
         "projetos/caixa diferencial montagem/caixa diferencial montagem-2.png",
@@ -75,6 +78,7 @@
     },
     {
       "nome": "Disco de Embreagem",
+      "descricao": "Este detalhamento técnico apresenta um pistão meticulosamente desenhado para máxima eficiência e desempenho.",
       "imagens": [
         "projetos/Disco de embreagem Portfolio/Disco de embreagem Portfolio-1.png",
         "projetos/Disco de embreagem Portfolio/Disco de embreagem Portfolio-2.png",
@@ -84,6 +88,7 @@
     },
     {
       "nome": "Estrutura do Laser",
+      "descricao": "Este detalhamento técnico apresenta um pistão meticulosamente desenhado para máxima eficiência e desempenho.",
       "imagens": [
         "projetos/Estrutura do Laser Portfólio/Estrutura do Laser Portfólio-1.png",
         "projetos/Estrutura do Laser Portfólio/Estrutura do Laser Portfólio-2.png"
@@ -91,6 +96,7 @@
     },
     {
       "nome": "Estrutura do Zumbach",
+      "descricao": "Este detalhamento técnico apresenta um pistão meticulosamente desenhado para máxima eficiência e desempenho.",
       "imagens": [
         "projetos/Estrutura do Zumbach FINAL/Estrutura do Zumbach FINAL-1.png",
         "projetos/Estrutura do Zumbach FINAL/Estrutura do Zumbach FINAL-2.png",
@@ -103,6 +109,7 @@
     },
     {
       "nome": "POLIA 122 Ø",
+      "descricao": "Este detalhamento técnico apresenta um pistão meticulosamente desenhado para máxima eficiência e desempenho.",
       "imagens": [
         "projetos/POLIA 122 Ø/POLIA 122 Ø-1.png",
         "projetos/POLIA 122 Ø/POLIA 122 Ø-2.png"
@@ -110,6 +117,7 @@
     },
     {
       "nome": "Tubo 45",
+      "descricao": "Este detalhamento técnico apresenta um pistão meticulosamente desenhado para máxima eficiência e desempenho.",
       "imagens": [
         "projetos/tubo 45 portfolio/tubo 45 portfolio-1.png",
         "projetos/tubo 45 portfolio/tubo 45 portfolio-2.png"
@@ -117,36 +125,42 @@
     },
     {
       "nome": "Eixo",
+      "descricao": "Este detalhamento técnico apresenta um pistão meticulosamente desenhado para máxima eficiência e desempenho.",
       "imagens": [
         "projetos/EIXO PORTFOLIO/EIXO PORTFOLIO-1.png"
       ]
     },
     {
       "nome": "Eixo Bucha",
+      "descricao": "Este detalhamento técnico apresenta um pistão meticulosamente desenhado para máxima eficiência e desempenho.",
       "imagens": [
         "projetos/EIXO BUCHA PORTFOLIO/EIXO BUCHA PORTFOLIO-1.png"
       ]
     },
     {
       "nome": "Rolo",
+      "descricao": "Este detalhamento técnico apresenta um pistão meticulosamente desenhado para máxima eficiência e desempenho.",
       "imagens": [
         "projetos/ROLO PORTFOLIO/ROLO PORTFOLIO-1.png"
       ]
     },
     {
       "nome": "Manípulo",
+      "descricao": "Este detalhamento técnico apresenta um pistão meticulosamente desenhado para máxima eficiência e desempenho.",
       "imagens": [
         "projetos/MANÍPULO PORTFOLIO/MANÍPULO PORTFOLIO-1.png"
       ]
     },
     {
       "nome": "Girabrequin",
+      "descricao": "Este detalhamento técnico apresenta um pistão meticulosamente desenhado para máxima eficiência e desempenho.",
       "imagens": [
         "projetos/Girabrequin/Girabrequim Renderizado.png"
       ]
     },
     {
       "nome": "KS",
+      "descricao": "Este detalhamento técnico apresenta um pistão meticulosamente desenhado para máxima eficiência e desempenho.",
       "imagens": [
         "projetos/KS/KS®118519354.1.jpg"
       ]
