@@ -88,13 +88,27 @@ img {
 
 @media (max-width: 800px) {
     .modal-fullscreen {
-        width: 100%;
+        width: 85%;
         height: auto;
         margin: auto;
         padding: 0;
     }
 
-    .left-arrow, .right-arrow {
-        display: none;
+    .right-arrow {
+        position: fixed;
+        top: 47%;
+        right: 3%;
+        z-index: 1055;
+        cursor: pointer;
+        color: #000000;
+    }
+
+    .left-arrow {
+        position: fixed;
+        top: 47%;
+        left: 3%;
+        z-index: 1055;
+        cursor: pointer;
+        color: #000000;
     }
 }
