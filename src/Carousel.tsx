@@ -65,6 +65,9 @@ const ImageCarousel = ({imagens}: ImageCarouselProps) =>
         }
     };
 
+    const hasLeftSwipe = () => selectedImageIndex !== 0;
+    const hasRightSwipe = () => selectedImageIndex !== imagens.length - 1;
+
     const handleSwipeLeft = () =>
     {
         setSelectedImageIndex((prevIndex) => (prevIndex - 1 + imagens.length) % imagens.length);
@@ -136,12 +139,12 @@ const ImageCarousel = ({imagens}: ImageCarouselProps) =>
                                     </div>
                                 </div>
                                 <div className="modal-body" {...swipeHandlers}>
-                                    <div onClick={handleSwipeLeft}>
+                                    <div onClick={handleSwipeLeft} className={!hasLeftSwipe() ? "hidden" : ""}>
                                         <i className="bi bi-arrow-left-circle-fill h1 left-arrow"></i>
                                     </div>
                                     <img src={`${process.env.PUBLIC_URL}/${imagens[selectedImageIndex]}`} alt="Selected"
                                          className="img-fluid modal-image"/>
-                                    <div onClick={handleSwipeRight}>
+                                    <div onClick={handleSwipeRight} className={!hasRightSwipe() ? "hidden" : ""}>
                                         <i className="bi bi-arrow-right-circle-fill h1 right-arrow"></i>
                                     </div>
                                 </div>
