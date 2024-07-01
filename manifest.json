@@ -5,45 +5,47 @@
   "cargos": "Mecânico | Desenhista 3D",
   "formacao": "Técnico em Mecânica pelo IFMG",
   "habilidades": [
-    "Auto Card",
+    "Auto Cad",
     "Solid Edge",
-    "Microsoft Word"
+    "Proficiência em Inglês",
+    "SDesenho técnico e Modelamento",
+    "Microsoft Excel"
   ],
   "link_whatsapp": "https://wa.me/553194955378",
   "link_linkedin": "https://www.linkedin.com/in/thiagoaamaga/",
   "link_instagram": "https://www.instagram.com",
   "avaliacoes": [
     {
-      "nome": "Ana Clara Silva",
-      "texto": "\"O design ficou excelente! A interface do AutoCAD permitiu criar detalhes precisos e de alta qualidade.\""
+      "nome": "Matheus Pradella Consultório",
+      "texto": "\"O Thiago proporcionou um molde para minha ótica que facilitou o ajuste de lente em óculos\""
     },
     {
-      "nome": "João Pedro",
-      "texto": "\"Muito satisfeito com o resultado final. As ferramentas do AutoCAD facilitaram bastante o processo de criação.\""
+      "nome": "Juliano Eagle Lab",
+      "texto": "\"Trabalho com o Thiago há meses projetando peças para minha facetadora, me ajudou a ser o único fabricante das peças no Brasil\""
     },
     {
-      "nome": "Mariana Souza",
-      "texto": "\"O produto ficou incrível, com um design funcional e esteticamente agradável. O AutoCAD é uma ferramenta essencial para esse tipo de trabalho.\""
+      "nome": "Robson Vallourec",
+      "texto": "\"Thiago projetou duas estruturas para a linha de produção de tubos na Vallourec de Jeceaba, ótimo detalhamento e precisão.\""
     }
   ],
   "servicos": [
     {
-      "titulo": "Auto Card",
-      "descricao": "Você precisa de desenhos técnicos precisos e detalhados para seus projetos de engenharia ou arquitetura? Estou aqui para ajudar! Sou um profissional experiente em modelagem AutoCAD, oferecendo serviços de alta qualidade em modelagem 2D e 3D."
+      "titulo": "Desenho Técnico",
+      "descricao": "Desenhos técnicos precisos e detalhados para seus projetos mecânicos!"
     },
     {
-      "titulo": "Auto Card",
-      "descricao": "Você precisa de desenhos técnicos precisos e detalhados para seus projetos de engenharia ou arquitetura? Estou aqui para ajudar! Sou um profissional experiente em modelagem AutoCAD, oferecendo serviços de alta qualidade em modelagem 2D e 3D."
+      "titulo": "Modelamento",
+      "descricao": "Faço modelamento de peças e objetos que você precisa."
     },
     {
-      "titulo": "Auto Card",
-      "descricao": "Você precisa de desenhos técnicos precisos e detalhados para seus projetos de engenharia ou arquitetura? Estou aqui para ajudar! Sou um profissional experiente em modelagem AutoCAD, oferecendo serviços de alta qualidade em modelagem 2D e 3D."
+      "titulo": "Excel",
+      "descricao": "Tenho curso de Excel Avançado e crio Dashboard automatizados e com indicadores"
     }
   ],
   "projetos": [
     {
       "nome": "Detalhamento Pistão",
-      "descricao": "Este detalhamento técnico apresenta um pistão meticulosamente desenhado para máxima eficiência e desempenho.",
+      "descricao": "Desenho técnico de um pistão com os seus respectivos componentes",
       "imagens": [
         "projetos/DETALHAMENTO PISTÃO_221212_154543/DETALHAMENTO PISTÃO_221212_154543-1.png",
         "projetos/DETALHAMENTO PISTÃO_221212_154543/DETALHAMENTO PISTÃO_221212_154543-2.png",
@@ -56,7 +58,7 @@
     },
     {
       "nome": "Análise Estrutura de Componente",
-      "descricao": "Este detalhamento técnico apresenta um pistão meticulosamente desenhado para máxima eficiência e desempenho.",
+      "descricao": "Análise Estrutural feita para calcular impacto do tubo na estrutura.",
       "imagens": [
         "projetos/Análise estrutura de componente/Análise estrutura de componente-1.png",
         "projetos/Análise estrutura de componente/Análise estrutura de componente-2.png",
@@ -69,7 +71,7 @@
     },
     {
       "nome": "Caixa Diferencial Montagem",
-      "descricao": "Este detalhamento técnico apresenta um pistão meticulosamente desenhado para máxima eficiência e desempenho.",
+      "descricao": "Detalhamento e modelamento de uma caixa diferencial mecânica.",
       "imagens": [
         "projetos/caixa diferencial montagem/caixa diferencial montagem-1.png",
         "projetos/caixa diferencial montagem/caixa diferencial montagem-2.png",
@@ -78,7 +80,7 @@
     },
     {
       "nome": "Disco de Embreagem",
-      "descricao": "Este detalhamento técnico apresenta um pistão meticulosamente desenhado para máxima eficiência e desempenho.",
+      "descricao": "Detalhamento e modelamento de uma caixa diferencial mecânica.",
       "imagens": [
         "projetos/Disco de embreagem Portfolio/Disco de embreagem Portfolio-1.png",
         "projetos/Disco de embreagem Portfolio/Disco de embreagem Portfolio-2.png",
@@ -88,7 +90,7 @@
     },
     {
       "nome": "Estrutura do Laser",
-      "descricao": "Este detalhamento técnico apresenta um pistão meticulosamente desenhado para máxima eficiência e desempenho.",
+      "descricao": "Desenho técnico da estrutra do laser de medição de raio de tubos projetado e fabricado na Vallourec Jeceaba",
       "imagens": [
         "projetos/Estrutura do Laser Portfólio/Estrutura do Laser Portfólio-1.png",
         "projetos/Estrutura do Laser Portfólio/Estrutura do Laser Portfólio-2.png"
@@ -96,7 +98,7 @@
     },
     {
       "nome": "Estrutura do Zumbach",
-      "descricao": "Este detalhamento técnico apresenta um pistão meticulosamente desenhado para máxima eficiência e desempenho.",
+      "descricao": "Desenho técnico da estrutura Zumbach de medição de espessura de tubo projetado e fabricado na Vallourec Jeceaba",
       "imagens": [
         "projetos/Estrutura do Zumbach FINAL/Estrutura do Zumbach FINAL-1.png",
         "projetos/Estrutura do Zumbach FINAL/Estrutura do Zumbach FINAL-2.png",
@@ -109,7 +111,7 @@
     },
     {
       "nome": "POLIA 122 Ø",
-      "descricao": "Este detalhamento técnico apresenta um pistão meticulosamente desenhado para máxima eficiência e desempenho.",
+      "descricao": "Polia mecânica.",
       "imagens": [
         "projetos/POLIA 122 Ø/POLIA 122 Ø-1.png",
         "projetos/POLIA 122 Ø/POLIA 122 Ø-2.png"
@@ -117,7 +119,7 @@
     },
     {
       "nome": "Tubo 45",
-      "descricao": "Este detalhamento técnico apresenta um pistão meticulosamente desenhado para máxima eficiência e desempenho.",
+      "descricao": "Corte de um tubo de 45 graus em chapa com medições detalhadas",
       "imagens": [
         "projetos/tubo 45 portfolio/tubo 45 portfolio-1.png",
         "projetos/tubo 45 portfolio/tubo 45 portfolio-2.png"
@@ -132,37 +134,41 @@
     },
     {
       "nome": "Eixo Bucha",
-      "descricao": "Este detalhamento técnico apresenta um pistão meticulosamente desenhado para máxima eficiência e desempenho.",
+      "descricao": "Detalhamento de um eixo mecânico.",
       "imagens": [
         "projetos/EIXO BUCHA PORTFOLIO/EIXO BUCHA PORTFOLIO-1.png"
       ]
     },
     {
       "nome": "Rolo",
-      "descricao": "Este detalhamento técnico apresenta um pistão meticulosamente desenhado para máxima eficiência e desempenho.",
+      "descricao": "Rolo de apoio para tubo na linha de produção.",
       "imagens": [
         "projetos/ROLO PORTFOLIO/ROLO PORTFOLIO-1.png"
       ]
     },
     {
-      "nome": "Manípulo",
-      "descricao": "Este detalhamento técnico apresenta um pistão meticulosamente desenhado para máxima eficiência e desempenho.",
+      "nome": "Manípulo Sargento",
+      "descricao": "Detalhamento técnico de um manípulo sargento para fixar peças.",
       "imagens": [
         "projetos/MANÍPULO PORTFOLIO/MANÍPULO PORTFOLIO-1.png"
       ]
     },
     {
       "nome": "Girabrequin",
-      "descricao": "Este detalhamento técnico apresenta um pistão meticulosamente desenhado para máxima eficiência e desempenho.",
+      "descricao": "Girabrequin/Virabrequin automotivo modelado e renderizado.",
       "imagens": [
         "projetos/Girabrequin/Girabrequim Renderizado.png"
       ]
     },
     {
-      "nome": "KS",
-      "descricao": "Este detalhamento técnico apresenta um pistão meticulosamente desenhado para máxima eficiência e desempenho.",
+      "nome": "Estrutura galpão",
+      "descricao": "Renderização de um galpão com detalhes de fundação",
       "imagens": [
-        "projetos/KS/KS®118519354.1.jpg"
+        "projetos/KS/KS®118519354.1.jpg",
+        "projetos/KS/KS®107028217.8.jpg",
+        "projetos/KS/KS®5947521455.2.jpg",
+        "projetos/KS/KS®5947521455.3.jpg"
+        
       ]
     }
   ]
