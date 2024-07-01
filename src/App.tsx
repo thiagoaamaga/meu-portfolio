@@ -5,6 +5,7 @@ import "./App.css";
 interface Project
 {
     nome: string;
+    descricao: string;
     imagens: string[];
 }
 
@@ -59,7 +60,7 @@ const App = () =>
                 <section>
                     <div className="profile">
                         <img src={`${process.env.PUBLIC_URL}/${data.foto}`} alt="Foto" className="mainPhoto"/>
-                        <h1>{data.nome}</h1>
+                        <h1 className="name">{data.nome}</h1>
                         <h6>{data.subtitulo}</h6>
                         <h6>{data.cargos}</h6>
                         <p>{data.formacao}</p>
@@ -80,7 +81,7 @@ const App = () =>
                 </section>
 
                 <section>
-                    <h2>Habilidades</h2><br/>
+                    <h1>Habilidades</h1><br/>
                     <ul className="row">
                         {data.habilidades.map((habilidade, index) => (
                             <li key={index} className="col-4">{habilidade}</li>
@@ -88,23 +89,24 @@ const App = () =>
                     </ul>
                 </section>
 
-                <section>
-                    <h2>Projetos</h2>
+                <section style={{paddingTop: '10px'}}>
+                    <h1>Projetos</h1>
                     {data.projetos.map((projeto, index) => (
-                        <div key={index} className="item-space">
-                            <h4>{projeto.nome}</h4><br/>
+                        <div key={index} className="carousel-item-space">
+                            <h4 className="bold-text">{projeto.nome}</h4>
+                            <p>{projeto.descricao}</p>
                             <ImageCarousel key={index} imagens={projeto.imagens}/>
                         </div>
                     ))}
                 </section>
 
                 <section>
-                    <h2>Avaliações</h2> <br/>
+                    <h1>Avaliações</h1><br/>
                     <div className="row">
                         {data.avaliacoes.map((avaliacao, index) => (
                             <div key={index} className="col-lg-4 col-sm-6 item-space">
-                                <i className="bi bi-person-circle h2"></i>
-                                <h4>{avaliacao.nome}</h4><br/>
+                                <i className="bi bi-person-circle"></i>
+                                <h4 className="rating-name">{avaliacao.nome}</h4>
                                 <p>{avaliacao.texto}</p>
                             </div>
                         ))}
@@ -112,11 +114,11 @@ const App = () =>
                 </section>
 
                 <section>
-                    <h2>Nossos Serviços</h2>
+                    <h1>Nossos Serviços</h1> <br/>
                     <div className="row">
                         {data.servicos.map((servico, index) => (
                             <div key={index} className="col-lg-6 col-sm-12 item-space">
-                                <h4>{servico.titulo}</h4><br/>
+                                <h4 className="bold-text">{servico.titulo}</h4>
                                 <p>{servico.descricao}</p>
                             </div>
                         ))}

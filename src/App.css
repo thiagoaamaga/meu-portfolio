@@ -5,6 +5,15 @@ html {
     margin: auto;
 }
 
+.name {
+    font-size: 3.5em;
+    font-weight: bolder;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
 p {
     font-size: 1em;
 }
@@ -34,22 +43,35 @@ body {
 h1 {
     font-weight: bold;
     margin-top: 20px;
+    font-size: 2em;
 }
 
 h2, h3 {
     font-weight: bold;
 }
 
+.rating-name {
+    margin-top: 10px;
+}
+
+.bi-person-circle {
+    font-size: 2.5em;
+}
+
 section {
-    padding: 40px 20px 20px 40px;
+    padding: 30px 20px 20px 40px;
 }
 
 a {
     margin: 20px;
 }
 
+.carousel-item-space {
+    margin: 40px 0 30px 0;
+}
+
 .item-space {
-    margin: 30px 0 30px 0;
+    margin: 20px 0 20px 0;
 }
 
 .bi:hover {
@@ -86,6 +108,15 @@ footer .bi {
 }
 
 @media (max-width: 600px) {
+    .h1 {
+        font-size: 3em;
+    }
+
+    .name {
+        font-size: 2.5em;
+        font-weight: bolder;
+    }
+
     .content {
         max-width: 500px;
     }
