@@ -108,7 +108,7 @@ footer .bi {
 }
 
 @media (max-width: 600px) {
-    .h1 {
+    .title {
         font-size: 3em;
     }
 

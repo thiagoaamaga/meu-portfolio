@@ -90,7 +90,7 @@ const App = () =>
                 </section>
 
                 <section style={{paddingTop: '10px'}}>
-                    <h1>Projetos</h1>
+                    <h1 className="title">Projetos</h1>
                     {data.projetos.map((projeto, index) => (
                         <div key={index} className="carousel-item-space">
                             <h4 className="bold-text">{projeto.nome}</h4>
@@ -101,7 +101,7 @@ const App = () =>
                 </section>
 
                 <section>
-                    <h1>Avaliações</h1><br/>
+                    <h1 className="title">Avaliações</h1><br/>
                     <div className="row">
                         {data.avaliacoes.map((avaliacao, index) => (
                             <div key={index} className="col-lg-4 col-sm-6 item-space">
@@ -114,7 +114,7 @@ const App = () =>
                 </section>
 
                 <section>
-                    <h1>Nossos Serviços</h1> <br/>
+                    <h1 className="title">Nossos Serviços</h1> <br/>
                     <div className="row">
                         {data.servicos.map((servico, index) => (
                             <div key={index} className="col-lg-6 col-sm-12 item-space">
